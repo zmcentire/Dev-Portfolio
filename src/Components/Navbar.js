@@ -26,13 +26,13 @@ const NavBar = (props) => {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem>
-                                <NavLink href="https://drive.google.com/file/d/1o6YLTJYDMKCfSPTZ4n80DPPWaRRJbY2i/view?usp=sharing">Resume</NavLink>
+                                <NavLink href="https://drive.google.com/file/d/1o6YLTJYDMKCfSPTZ4n80DPPWaRRJbY2i/view?usp=sharing" target="_blank">Resume</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="https://github.com/zmcentire">Github</NavLink>
+                                <NavLink href="https://github.com/zmcentire" target="_blank">Github</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="https://www.linkedin.com/in/zachmcentire/">LinkedIn</NavLink>
+                                <NavLink href="https://www.linkedin.com/in/zachmcentire/" target="_blank">LinkedIn</NavLink>
                             </DropdownItem>  
                         </DropdownMenu>
                     </Dropdown>
