@@ -1,0 +1,60 @@
+/* Intro & About Page Style */
+
+.intro {
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.intro-header h1 {
+    font-size: 66px;
+    font-weight: bold;
+}
+
+.intro hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.intro-route h4{
+    color: black;
+}
+
+.headshot{
+    align-self: flex-end;
+    height: 300px;
+    border-radius: 40%;
+}
+
+.about p {
+    font-size: 20px;
+    padding: 1em;
+}
+
+.contact i {
+    color: white;
+    font-size: 10em;
+    padding: 8px;
+}
+
+/* Project Page Style */
+
+.projects {
+    display: flex;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-grid i {
+    font-size: 10em;
+    padding: 8px;
+}
+
