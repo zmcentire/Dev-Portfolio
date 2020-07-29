@@ -26,7 +26,7 @@ const NavBar = (props) => {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem>
-                                <NavLink href="https://drive.google.com/file/d/1o6YLTJYDMKCfSPTZ4n80DPPWaRRJbY2i/view">Resume</NavLink>
+                                <NavLink href="https://drive.google.com/file/d/1o6YLTJYDMKCfSPTZ4n80DPPWaRRJbY2i/view?usp=sharing">Resume</NavLink>
                             </DropdownItem>
                             <DropdownItem>
                                 <NavLink href="https://github.com/zmcentire">Github</NavLink>

@@ -18,7 +18,7 @@ const Projects = () => {
                             <b>Technologies used: AngularJS, CSS, HTML</b>
                             </CardText>
                             <CardActions border>
-                                <Button colored href="https://getpolyplatform.com/">Demo</Button>
+                                <Button colored href="https://getpolyplatform.com/" target="_blank">Demo</Button>
                             </CardActions>
                         </Card>
                         {/* Quote Generator */}
@@ -30,7 +30,7 @@ const Projects = () => {
                                 <b>Technologies used: ReactJS, NodeJS, REST API, CSS, Reactstrap</b>
                             </CardText>
                             <CardActions border>
-                                <Button colored href="https://stoic-quote-generator.herokuapp.com/">Demo</Button>
+                                <Button colored href="https://stoic-quote-generator.herokuapp.com/" target="_blank">Demo</Button>
                             </CardActions>
                         </Card>
                         {/* Stoic Timeline */}
@@ -42,7 +42,7 @@ const Projects = () => {
                                 <b>Technologies used: ReactJS, CSS, HTML</b>
                             </CardText>
                             <CardActions border>
-                                <Button colored href="https://stoic-bio.herokuapp.com/">Demo</Button>
+                                <Button colored href="https://stoic-bio.herokuapp.com/" target="_blank">Demo</Button>
                             </CardActions>
                         </Card>
                         {/* DJ React */}
@@ -52,7 +52,7 @@ const Projects = () => {
                                 A DJ board React App with interactive buttons that change the display and color of the board
                             </CardText>
                             <CardActions border>
-                                <Button colored href="https://react-dj-board.herokuapp.com/">Demo</Button>
+                                <Button colored href="https://react-dj-board.herokuapp.com/" target="_blank">Demo</Button>
                             </CardActions>
                         </Card>
                     </div>
