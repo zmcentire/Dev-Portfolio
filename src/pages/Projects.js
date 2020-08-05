@@ -50,6 +50,8 @@ const Projects = () => {
                             <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.ebayimg.com/images/g/waoAAOSwNSJa18ok/s-l400.jpg) center /cover'}}>DJ Board React App</CardTitle>
                             <CardText>
                                 A DJ board React App with interactive buttons that change the display and color of the board
+                                <br/>
+                                <b>Technologies used: ReactJS, CSS</b>
                             </CardText>
                             <CardActions border>
                                 <Button colored href="https://react-dj-board.herokuapp.com/" target="_blank">Demo</Button>
