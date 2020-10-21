@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
-import HotZoneLogo from '../Images/HotZone Logo.png'
+import '../Images/HotZone Logo.png'
 
 
 const Projects = () => {
@@ -63,7 +63,7 @@ const Projects = () => {
                         </Card>
                         {/* React Metronome */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://image.flaticon.com/icons/png/512/355/355128.png) center /cover'}}>React Metronome</CardTitle>
+                            <CardTitle style={{color: '#fff', height: '190px', background: 'url(https://image.flaticon.com/icons/png/512/355/355128.png) center /cover'}}>React Metronome</CardTitle>
                             <CardText>
                                 Metronome app created in React
                                 <br/>
@@ -76,7 +76,7 @@ const Projects = () => {
                         </Card>
                         {/* Hotzone */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background: require(HotZoneLogo)}}>Hotzone</CardTitle>
+                            <CardTitle style={{color: '#fff', height: '176px', width: '225px', background: 'url(https://firehouse-app.web.app/static/media/HotZoneLogo.b602b7bc.png)'}}>Hotzone</CardTitle>
                             <CardText>
                                 Application for firefighters and paramedics to easily search for information on drug and protocol administration while in certain counties.
                                 <br/>
