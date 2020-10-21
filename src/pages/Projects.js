@@ -31,6 +31,7 @@ const Projects = () => {
                             </CardText>
                             <CardActions border>
                                 <Button colored href="https://stoic-quote-generator.herokuapp.com/" target="_blank">Demo</Button>
+                                <Button colored href="https://github.com/zmcentire/vschool/tree/master/exercise/stoic-quote" target="_blank">Github</Button>
                             </CardActions>
                         </Card>
                         {/* Stoic Timeline */}
@@ -43,6 +44,7 @@ const Projects = () => {
                             </CardText>
                             <CardActions border>
                                 <Button colored href="https://stoic-bio.herokuapp.com/" target="_blank">Demo</Button>
+                                <Button colored href="https://github.com/zmcentire/stoic-bio" target="_blank">Github</Button>
                             </CardActions>
                         </Card>
                         {/* DJ React */}
@@ -55,6 +57,32 @@ const Projects = () => {
                             </CardText>
                             <CardActions border>
                                 <Button colored href="https://react-dj-board.herokuapp.com/" target="_blank">Demo</Button>
+                                <Button colored href="https://github.com/zmcentire/dj-react" target="_blank">Github</Button>
+                            </CardActions>
+                        </Card>
+                        {/* React Metronome */}
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://image.flaticon.com/icons/png/512/355/355128.png) center /cover'}}>React Metronome</CardTitle>
+                            <CardText>
+                                Metronome app created in React
+                                <br/>
+                                <b>Technologies used: ReactJS</b>
+                            </CardText>
+                            <CardActions border>
+                                <Button colored href="react-metronome-zm.netlify.app" target="_blank">Demo</Button>
+                                <Button colored href="https://github.com/zmcentire/react-metronome" target="_blank">Github</Button>
+                            </CardActions>
+                        </Card>
+                        {/* Hotzone */}
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://firehouse-app.web.app/static/media/HotZoneLogo.b602b7bc.png)'}}>Hotzone</CardTitle>
+                            <CardText>
+                                Application for firefighters and paramedics to easily search for information on drug and protocol administration while in certain counties.
+                                <br/>
+                                <b>Technologies used: ReactJS, CSS, Node, Firebase</b>
+                            </CardText>
+                            <CardActions border>
+                                <Button colored href="firehouse-app.web.app" target="_blank">Demo</Button>
                             </CardActions>
                         </Card>
                     </div>
