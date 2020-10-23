@@ -70,7 +70,7 @@ const Projects = () => {
                                 <b>Technologies used: ReactJS</b>
                             </CardText>
                             <CardActions border>
-                                <Button colored href="react-metronome-zm.netlify.app" target="_blank">Demo</Button>
+                                <Button colored href="https://react-metronome-zm.netlify.app" target="_blank">Demo</Button>
                                 <Button colored href="https://github.com/zmcentire/react-metronome" target="_blank">Github</Button>
                             </CardActions>
                         </Card>
@@ -83,7 +83,7 @@ const Projects = () => {
                                 <b>Technologies used: ReactJS, CSS, Node, Firebase</b>
                             </CardText>
                             <CardActions border>
-                                <Button colored href="firehouse-app.web.app" target="_blank">Demo</Button>
+                                <Button colored href="https://firehouse-app.web.app" target="_blank">Demo</Button>
                             </CardActions>
                         </Card>
                     </div>
