@@ -1,13 +1,14 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import "../Images/Headshot2.jpg";
+import "../Images/NewHeadshot3.JPG";
 
 const AboutMe = () => {
     return (
         <div style={{width: '100%', margin: 'auto'}}>
             <Grid className="intro">
                 <Cell col={12}>
-                    <img src={require("../Images/Headshot2.jpg")} alt="" className="headshot"/>
+                    <img src={require( "../Images/NewHeadshot3.JPG")} alt="" className="headshot"/>
                     <div className="intro-header">
                         <h1>Zach McEntire</h1>
                         <h3>Full Stack Developer</h3>

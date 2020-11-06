@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Headshot from "../Images/Headshot2.jpg";
+import Headshot from "../Images/NewHeadshot3.JPG";
 
 const Intro = () => {
     return (
