@@ -55,6 +55,10 @@
     grid-gap: 10px;
 }
 
+.skills-grid div {
+    border: solid black;
+}
+
 .skills-grid i {
     font-size: 10em;
     padding: 8px;

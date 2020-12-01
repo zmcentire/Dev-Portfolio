@@ -10,8 +10,10 @@ const Projects = () => {
                     <div Class="projects">
                         {/* Poly */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: 'black', height: '176px', background: "url(https://media-exp1.licdn.com/dms/image/C560BAQE9RaZr9z3-wg/company-logo_200_200/0?e=1603929600&v=beta&t=f67ZH0OmfaGmcMQTIvwdpgsRtHZ7afIugCugtXTHECw) center / cover"}}>Poly Platform</CardTitle>
+                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '176px', background: "url(https://media-exp1.licdn.com/dms/image/C560BAQE9RaZr9z3-wg/company-logo_200_200/0?e=1603929600&v=beta&t=f67ZH0OmfaGmcMQTIvwdpgsRtHZ7afIugCugtXTHECw) center / cover"}}>Poly Platform</CardTitle>
                             <CardText>
+                            <b>Poly Platform</b>
+                            <br/>
                             An event scheduling/organization social media app.
                             The platform combines the power of organizational exclusivity with interest-based content to encourage face to face engagement for university students and company employees. 
                             On the backend, data aggregation helps build a strategic analysis of your organization. Get to know your student body or your employees better by seeing what they are interested in and how they like to engage with each other.
@@ -24,7 +26,7 @@ const Projects = () => {
                         </Card>
                         {/* Quote Generator */}
                         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-                            <CardTitle expand style={{ color: 'grey', height: '175px', background: 'url(https://www.quickanddirtytips.com/sites/default/files/images/204/quotation-marks.jpg) center / cover'}}>Stoic Quote Generator</CardTitle>
+                            <CardTitle expand style={{ color: 'grey', fontStyle: 'oblique', height: '275px', background: 'url(https://www.quickanddirtytips.com/sites/default/files/images/204/quotation-marks.jpg) center / cover'}}>Stoic Quote Generator</CardTitle>
                             <CardText>
                                 Random quote generator built in React using Rest APIs the randomly generate quotes from Stoicism.
                                 <br/>
@@ -37,7 +39,7 @@ const Projects = () => {
                         </Card>
                         {/* Stoic Timeline */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://www.templateral.com/wp-content/uploads/Sample-of-Blank-Timeline-Template.jpg) center / cover'}}>Stoic Bio Timeline</CardTitle>
+                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '176px', background: 'url(https://www.templateral.com/wp-content/uploads/Sample-of-Blank-Timeline-Template.jpg) center / cover'}}>Stoic Bio Timeline</CardTitle>
                             <CardText>
                                 React Timeline app featuring simple bios of prolific Stoic Philosophers
                                 <br/>
@@ -50,7 +52,7 @@ const Projects = () => {
                         </Card>
                         {/* DJ React */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.ebayimg.com/images/g/waoAAOSwNSJa18ok/s-l400.jpg) center /cover'}}>DJ Board React App</CardTitle>
+                            <CardTitle style={{color:'#fff', fontStyle: 'oblique', height: '176px', background: 'url(https://i.ebayimg.com/images/g/waoAAOSwNSJa18ok/s-l400.jpg) center /cover'}}>DJ Board React App</CardTitle>
                             <CardText>
                                 A DJ board React App with interactive buttons that change the display and color of the board
                                 <br/>
@@ -63,7 +65,7 @@ const Projects = () => {
                         </Card>
                         {/* React Metronome */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '190px', background: 'url(https://image.flaticon.com/icons/png/512/355/355128.png) center /cover'}}>React Metronome</CardTitle>
+                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '190px', background: 'url(https://image.flaticon.com/icons/png/512/355/355128.png) center /cover'}}>React Metronome</CardTitle>
                             <CardText>
                                 Metronome app created in React
                                 <br/>
@@ -76,7 +78,7 @@ const Projects = () => {
                         </Card>
                         {/* Hotzone */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', width: '225px', background: 'url(https://firehouse-app.web.app/static/media/HotZoneLogo.b602b7bc.png)'}}>Hotzone</CardTitle>
+                            <CardTitle style={{color: '#fff', fontStyle: 'oblique', height: '176px', width: '225px', background: 'url(https://firehouse-app.web.app/static/media/HotZoneLogo.b602b7bc.png)'}}>Hotzone</CardTitle>
                             <CardText>
                                 Application for firefighters and paramedics to easily search for information on drug and protocol administration while in certain counties.
                                 <br/>
