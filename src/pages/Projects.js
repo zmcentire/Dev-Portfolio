@@ -26,8 +26,10 @@ const Projects = () => {
                         </Card>
                         {/* Quote Generator */}
                         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-                            <CardTitle expand style={{ color: 'grey', fontStyle: 'oblique', height: '275px', background: 'url(https://www.quickanddirtytips.com/sites/default/files/images/204/quotation-marks.jpg) center / cover'}}>Stoic Quote Generator</CardTitle>
+                            <CardTitle expand style={{ color: 'grey', fontStyle: 'oblique', height: '275px', background: 'url(https://www.quickanddirtytips.com/sites/default/files/images/204/quotation-marks.jpg) center / cover'}}></CardTitle>
                             <CardText>
+                                <b>Stoic Quote Generator</b>
+                                <br/>
                                 Random quote generator built in React using Rest APIs the randomly generate quotes from Stoicism.
                                 <br/>
                                 <b>Technologies used: ReactJS, NodeJS, REST API, CSS, Reactstrap</b>
@@ -39,8 +41,10 @@ const Projects = () => {
                         </Card>
                         {/* Stoic Timeline */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '176px', background: 'url(https://www.templateral.com/wp-content/uploads/Sample-of-Blank-Timeline-Template.jpg) center / cover'}}>Stoic Bio Timeline</CardTitle>
+                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '176px', background: 'url(https://www.templateral.com/wp-content/uploads/Sample-of-Blank-Timeline-Template.jpg) center / cover'}}></CardTitle>
                             <CardText>
+                                <b>Stoic Timeline</b>
+                                <br/>
                                 React Timeline app featuring simple bios of prolific Stoic Philosophers
                                 <br/>
                                 <b>Technologies used: ReactJS, CSS, HTML</b>
@@ -52,8 +56,10 @@ const Projects = () => {
                         </Card>
                         {/* DJ React */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color:'#fff', fontStyle: 'oblique', height: '176px', background: 'url(https://i.ebayimg.com/images/g/waoAAOSwNSJa18ok/s-l400.jpg) center /cover'}}>DJ Board React App</CardTitle>
+                            <CardTitle style={{color:'#fff', fontStyle: 'oblique', height: '176px', background: 'url(https://i.ebayimg.com/images/g/waoAAOSwNSJa18ok/s-l400.jpg) center /cover'}}></CardTitle>
                             <CardText>
+                                <b>DJ Board React App</b>
+                                <br/>
                                 A DJ board React App with interactive buttons that change the display and color of the board
                                 <br/>
                                 <b>Technologies used: ReactJS, CSS</b>
@@ -65,8 +71,10 @@ const Projects = () => {
                         </Card>
                         {/* React Metronome */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '190px', background: 'url(https://image.flaticon.com/icons/png/512/355/355128.png) center /cover'}}>React Metronome</CardTitle>
+                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '190px', background: 'url(https://image.flaticon.com/icons/png/512/355/355128.png) center /cover'}}></CardTitle>
                             <CardText>
+                                <b>React Metronome</b>
+                                <br/>
                                 Metronome app created in React
                                 <br/>
                                 <b>Technologies used: ReactJS</b>
@@ -78,8 +86,10 @@ const Projects = () => {
                         </Card>
                         {/* Hotzone */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', fontStyle: 'oblique', height: '176px', width: '225px', background: 'url(https://firehouse-app.web.app/static/media/HotZoneLogo.b602b7bc.png)'}}>Hotzone</CardTitle>
+                            <CardTitle style={{color: '#fff', fontStyle: 'oblique', height: '176px', width: '225px', background: 'url(https://firehouse-app.web.app/static/media/HotZoneLogo.b602b7bc.png)'}}></CardTitle>
                             <CardText>
+                                <b>Hotzone</b>
+                                <br/>
                                 Application for firefighters and paramedics to easily search for information on drug and protocol administration while in certain counties.
                                 <br/>
                                 <b>Technologies used: ReactJS, CSS, Node, Firebase</b>
