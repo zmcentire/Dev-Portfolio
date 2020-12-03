@@ -3,7 +3,7 @@
 .intro {
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, cadetblue, teal, #833ab4);
     text-align: center;
     position: relative;
     height: 100%;

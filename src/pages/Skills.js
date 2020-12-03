@@ -29,23 +29,23 @@ const Skills = () => {
                             <i class="fab fa-node"></i>
                             <h4>NodeJS</h4>
                         </div>
-                        <div>
+                        {/* <div>
                             <h4>ExpressJS</h4>
-                        </div>
-                        <div>
+                        </div> */}
+                        {/* <div>
                             <h4>MongoDB</h4>
-                        </div>
+                        </div> */}
                         <div>
                             <i class="fab fa-git-square"></i>
                             <h4>Git</h4>
                         </div>
-                        <div>
+                        {/* <div>
                             JSON
-                        </div>
-                        <div>
+                        </div> */}
+                        {/* <div>
                             <i class="fab fa-adobe"></i>
                             <h4>Adobe Creative Cloud</h4>
-                        </div>
+                        </div> */}
                         <div>
                             <i class="fab fa-microsoft"></i>
                             <h4>Microsoft Suite</h4>
