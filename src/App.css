@@ -57,10 +57,19 @@
 
 .skills-grid div {
     border: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .skills-grid i {
     font-size: 10em;
     padding: 8px;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.skills-grid h4 {
+    align-self: center;
 }
 
