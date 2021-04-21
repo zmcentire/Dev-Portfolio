@@ -14,8 +14,73 @@ const Intro = () => {
                     </div>
 
                     <hr/>
+
+                    <div className="about">
+                        <p>
+                            Recent coding boot camp graduate with experience in full-stack web development (JavaScript, React, HTML, CSS, Node, etc.).
+
+                            5+ years in Radio Productions/Promotions with experience in Adobe Creative Cloud, WordPress, and Microsoft Suite.
+
+                            Seeking new opportunities in tech to further improve my new skillset in front end and back end programming.
+                        </p>
+                    </div>
+
+                    <hr /> 
+
+                    <h4>Skills</h4>
+                    <div className="contact">
+                        
+                        <div>
+                            <i class="fab fa-html5"></i>
+                            <h5>html5</h5>
+                        </div>
+                        <div>
+                            <i class="fab fa-css3-alt"></i>
+                            <h5>CSS</h5>
+                        </div>
+                        <div>
+                            <i class="fab fa-react"></i>
+                            <h5>ReactJS</h5>
+                        </div>
+                        <div>
+                            <i class="fab fa-angular"></i>
+                            <h5>AngularJS</h5>
+                        </div>
+                        <div>
+                            <i class="fab fa-node"></i>
+                            <h5>NodeJS</h5>
+                        </div>
+                        <div>
+                            <i class="fab fa-git-square"></i>
+                            <h5>Git</h5>
+                        </div>
+                        <div>
+                            <i class="fab fa-microsoft"></i>
+                            <h5>Microsoft Suite</h5>
+                        </div>
+                        <div>
+                            <i class="fab fa-wordpress"></i>
+                            <h5>Wordpress</h5>
+                        </div>
+                    </div>
+
+                    <hr />
                     
-                    <div className="intro-route">
+                    <h4>Get in touch</h4>
+                    <div className="contact">
+                        
+                        {/* <a href="mcentirezach@gmail.com" rel="noopener noreferrer" target="_blank">
+                            <i class="fas fa-envelope"></i>
+                        </a> */}
+                        <a href="https://github.com/zmcentire" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-github" aria-hidden="true" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/zachmcentire/" rel="noopener noreferrer" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    
+                    {/* <div className="intro-route">
                         <a href="/about/">
                             <h4>About Me</h4>
                         </a>
@@ -25,7 +90,7 @@ const Intro = () => {
                         <a href="/skills">
                             <h4>Skills</h4>
                         </a>
-                    </div>
+                    </div> */}
                 </Cell>
             </Grid>
         </div>

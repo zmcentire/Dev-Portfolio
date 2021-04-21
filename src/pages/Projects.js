@@ -90,12 +90,24 @@ const Projects = () => {
                             <CardText>
                                 <b>Hotzone</b>
                                 <br/>
-                                Application for firefighters and paramedics to easily search for information on drug and protocol administration while in certain counties.
+                                    Application for firefighters and paramedics to easily search for information on drug and protocol administration while in certain counties.
                                 <br/>
                                 <b>Technologies used: ReactJS, CSS, Node, Firebase</b>
                             </CardText>
                             <CardActions border>
                                 <Button colored href="https://firehouse-app.web.app" target="_blank">Demo</Button>
+                            </CardActions>
+                        </Card>
+                        {/* Instagram-clone */}
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '245px', background: 'url(https://logodix.com/logo/14586.png)', backgroundPosition: 'center'}} />
+                            <CardText>
+                                <b>Instagram-clone</b>
+                                <br/>
+                                <b>Technologies used: ReactJS, Tailwind CSS, Firebase</b>
+                            </CardText>
+                            <CardActions border>
+                                <Button colored href="https://github.com/zmcentire/instagram-clone" target="_blank">Github</Button>
                             </CardActions>
                         </Card>
                     </div>

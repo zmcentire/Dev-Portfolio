@@ -28,18 +28,26 @@
 .headshot{
     align-self: flex-end;
     height: 300px;
-    border-radius: 40%;
+    border-radius: 75%;
 }
 
 .about p {
     font-size: 20px;
     padding: 1em;
+    margin: 10px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact i {
     color: white;
-    font-size: 10em;
+    font-size: 7em;
     padding: 8px;
+    margin: 10px;
 }
 
 /* Project Page Style */

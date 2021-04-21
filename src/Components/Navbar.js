@@ -11,15 +11,15 @@ const NavBar = (props) => {
             <Navbar color="dark" expand="md">
                 <NavbarBrand href="/">Zach McEntire</NavbarBrand>
                 <Nav className="ml-auto" navbar>
-                    <NavItem>
+                    {/* <NavItem>
                         <NavLink href="/about">About Me</NavLink>
-                    </NavItem>
+                    </NavItem> */}
                     <NavItem>
                         <NavLink href="/projects">Projects</NavLink>
                     </NavItem>
-                    <NavItem>
+                    {/* <NavItem>
                         <NavLink href="/skills">Skills</NavLink>
-                    </NavItem>
+                    </NavItem> */}
                     <Dropdown nav inNavbar isOpen={dropdownOpen} toggle={toggle}>
                         <DropdownToggle nav caret>
                             Contact
