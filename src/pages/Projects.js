@@ -98,6 +98,21 @@ const Projects = () => {
                                 <Button colored href="https://firehouse-app.web.app" target="_blank">Demo</Button>
                             </CardActions>
                         </Card>
+                        {/* Recipe-App-React */}
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '245px', background: 'url(https://res.cloudinary.com/practicaldev/image/fetch/s--J4f1ublm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/zdula4zwasjf68dlnuw4.PNG)', backgroundPosition: 'center'}} />
+                            <CardText>
+                                <b>React Recipe App</b>
+                                <br/>
+                                    Recipe search application using React and the Edamam recipe search API.
+                                <br/>
+                                <b>Technologies used: ReactJS, Edamam Recipe API</b>
+                            </CardText>
+                            <CardActions border>
+                                <Button colored href="https://zachmac-recipe-react.netlify.app/" target="_blank">Demo</Button>
+                                <Button colored href="https://github.com/zmcentire/react-recipe-app" target="_blank">Github</Button>
+                            </CardActions>
+                        </Card>
                         {/* Instagram-clone */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                             <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '245px', background: 'url(https://logodix.com/logo/14586.png)', backgroundPosition: 'center'}} />
