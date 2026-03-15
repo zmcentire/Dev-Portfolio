@@ -8,6 +8,33 @@ const Projects = () => {
         <Grid>
             <Cell col={12}>
                     <div Class="projects">
+                        {/* TigerData Fitness Tracker */}
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                            <CardTitle style={{
+                                color: '#fff',
+                                fontStyle: 'oblique',
+                                height: '176px',
+                                background: 'url(https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800) center / cover'
+                            }}>
+                                TigerData Fitness Tracker
+                            </CardTitle>
+                            <CardText>
+                                <b>TigerData Fitness Tracker</b>
+                                <br/>
+                                Agentic powerlifting tracker built on TimescaleDB. Ingests workout 
+                                data via natural language, stores sets as time-series data in 
+                                hypertables, and projects 1RM progress toward 2026 PR targets using 
+                                continuous aggregates and linear regression. Features an AI coaching 
+                                interface powered by Claude tool-use agents, a FastAPI backend, and 
+                                a real-time Streamlit dashboard.
+                                <br/>
+                                <b>Technologies: Python, TimescaleDB, FastAPI, Streamlit, Claude API, Plotly</b>
+                            </CardText>
+                            <CardActions border>
+                                <Button colored href="https://tigerdata-fitness-tracker-production-a693.up.railway.app" target="_blank">Live Demo</Button>
+                                <Button colored href="https://github.com/zmcentire/tigerdata-fitness-tracker" target="_blank">GitHub</Button>
+                            </CardActions>
+                        </Card>
                         {/* Poly */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                             <CardTitle style={{color: 'black', fontStyle: 'oblique', height: '176px', background: "url(https://media-exp1.licdn.com/dms/image/C560BAQE9RaZr9z3-wg/company-logo_200_200/0?e=1603929600&v=beta&t=f67ZH0OmfaGmcMQTIvwdpgsRtHZ7afIugCugtXTHECw) center / cover"}}>Poly Platform</CardTitle>
