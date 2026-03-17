@@ -39,7 +39,7 @@ const Intro = () => {
         <section style={styles.heroSection} aria-label="Introduction">
           <div style={styles.headshotWrapper}>
             <img
-              src={require('./Images/Headshot.jpeg')}
+              src={require('../Images/Headshot.jpeg')}
               alt="Zach McEntire — Full-Stack & AI Engineer"
               style={styles.headshot}
             />
