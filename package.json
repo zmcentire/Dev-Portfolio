@@ -25,7 +25,7 @@
     "heroku-postbuild": "cd src && npm install --only=dev && npm run build"
   },
   "engines": {
-    "node": "8.10.0"
+    "node": "18"
   },
   "eslintConfig": {
     "extends": "react-app"

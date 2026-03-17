@@ -1,83 +1,134 @@
-/* Intro & About Page Style */
+/* ─── Google Fonts ─────────────────────────────────────────────────────────
+   Add these to your public/index.html <head> if not already there:
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+   ──────────────────────────────────────────────────────────────────────── */
 
-.intro {
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, cadetblue, teal, #833ab4);
-    text-align: center;
-    position: relative;
-    height: 100%;
-    width: 100%;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-.intro-header h1 {
-    font-size: 66px;
-    font-weight: bold;
+:root {
+  --color-bg:          #0d0d0f;
+  --color-surface:     #13141a;
+  --color-surface-2:   #1a1b24;
+  --color-border:      #2a2b38;
+  --color-cyan:        #00e5ff;
+  --color-crimson:     #8b1a1a;
+  --color-crimson-lt:  #c0392b;
+  --color-brass:       #b8960c;
+  --color-text-1:      #e8e6df;
+  --color-text-2:      #9a9890;
+  --font-display:      'Cinzel', 'Palatino Linotype', Georgia, serif;
+  --font-mono:         'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
 }
 
-.intro hr {
-    border-top: 5px dotted white;
-    width: 50%;
-    margin: auto;
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-text-1);
+  font-family: var(--font-mono);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
-.intro-route h4{
-    color: black;
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-crimson); }
+
+/* ─── Selection ──────────────────────────────────────────────────────────── */
+::selection {
+  background: rgba(0, 229, 255, 0.2);
+  color: var(--color-cyan);
 }
 
-.headshot{
-    align-self: flex-end;
-    height: 300px;
-    border-radius: 75%;
+/* ─── Focus visible ──────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 2px;
 }
 
-.about p {
-    font-size: 20px;
-    padding: 1em;
-    margin: 10px;
+/* ─── Navbar overrides ───────────────────────────────────────────────────── */
+.navbar {
+  background: rgba(13, 13, 15, 0.92) !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  font-family: var(--font-mono);
+  letter-spacing: 0.06em;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-.contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar-brand {
+  font-family: var(--font-display) !important;
+  font-size: 16px !important;
+  letter-spacing: 0.12em !important;
+  color: var(--color-text-1) !important;
+  text-transform: uppercase;
 }
 
-.contact i {
-    color: white;
-    font-size: 7em;
-    padding: 8px;
-    margin: 10px;
+.nav-link {
+  color: var(--color-text-2) !important;
+  transition: color 0.2s !important;
 }
 
-/* Project Page Style */
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.nav-link:hover {
+  color: var(--color-cyan) !important;
 }
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+.dropdown-menu {
+  background: var(--color-surface) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: 2px !important;
+  font-family: var(--font-mono);
+  font-size: 12px;
 }
 
-.skills-grid div {
-    border: solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.dropdown-item {
+  color: var(--color-text-2) !important;
+  letter-spacing: 0.04em;
 }
 
-.skills-grid i {
-    font-size: 10em;
-    padding: 8px;
-    align-self: center;
-    margin-top: 5px;
+.dropdown-item:hover {
+  background: var(--color-surface-2) !important;
+  color: var(--color-cyan) !important;
 }
 
-.skills-grid h4 {
-    align-self: center;
+/* ─── Link hover utility ─────────────────────────────────────────────────── */
+a {
+  transition: color 0.2s, border-color 0.2s;
 }
 
+/* ─── Glitch hover on project images ────────────────────────────────────── */
+@keyframes glitch-clip {
+  0%   { clip-path: inset(0 0 95% 0); transform: translateX(-3px); }
+  20%  { clip-path: inset(30% 0 60% 0); transform: translateX(3px); }
+  40%  { clip-path: inset(60% 0 20% 0); transform: translateX(-2px); }
+  60%  { clip-path: inset(80% 0 5% 0);  transform: translateX(2px); }
+  80%  { clip-path: inset(10% 0 80% 0); transform: translateX(-3px); }
+  100% { clip-path: inset(0 0 95% 0);   transform: translateX(0); }
+}
+
+/* ─── Utility: visually hidden (accessibility) ───────────────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ─── Removed: old intro gradient, skills-grid, contact styles ───────────── 
+   These are now handled inline in each component.
+   ──────────────────────────────────────────────────────────────────────── */
