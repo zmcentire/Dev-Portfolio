@@ -286,7 +286,7 @@ const Projects = () => {
                         <p style={styles.caseText}>{project.challenges}</p>
                       </div>
 
-                      {project.future.length > 0 && (
+                      {project.future && project.future.length > 0 && (
                         <div style={styles.caseSection}>
                           <h3 style={styles.caseHeading}>
                             <span style={styles.accent}>{'> '}</span>Planned iterations
