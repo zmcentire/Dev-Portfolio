@@ -43,10 +43,6 @@ const projects = [
     ],
     challenges:
       'Building reusable, composable Angular components that could scale across different organizational contexts required careful attention to input/output contracts and TypeScript typing discipline.',
-    future: [
-      'Mobile-native experience',
-      'Push notifications for event reminders',
-    ],
     demo: 'https://getpolyplatform.com/',
     github: null,
     image: 'https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?w=800',
@@ -67,11 +63,6 @@ const projects = [
     ],
     challenges:
       'The UX challenge was building an interface that works under genuine stress — large tap targets, minimal cognitive load, and fast lookup. Data architecture in Firebase required careful normalization to support fast county-filtered queries.',
-    future: [
-      'Offline PWA support for no-signal environments',
-      'GPS-based nearest hospital routing',
-      'Push updates when protocols change',
-    ],
     demo: 'https://firehouse-app.web.app',
     github: null,
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
@@ -80,8 +71,7 @@ const projects = [
     id: 'stoic-quote',
     title: 'Stoic Quote Generator',
     tagline: 'Random quote generator powered by a custom Stoicism API',
-    status: 'offline',
-    statusNote: 'Redeploying from Heroku → Netlify',
+    status: 'live',
     stack: ['React', 'Node.js', 'Reactstrap', 'REST API', 'CSS'],
     description:
       'A random quote generator that pulls from a custom-built API of Stoic philosophy quotes. Built and hosted the quote data as its own REST API, then consumed it in a clean React interface.',
@@ -96,7 +86,7 @@ const projects = [
       'Filter by philosopher or theme',
       'Daily quote via email subscription',
     ],
-    demo: null,
+    demo: 'https://stoic-quote.netlify.app',
     github: 'https://github.com/zmcentire/vschool/tree/master/exercise/stoic-quote',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800',
   },
@@ -104,8 +94,7 @@ const projects = [
     id: 'stoic-timeline',
     title: 'Stoic Timeline',
     tagline: 'Interactive timeline & biographies of Stoic philosophers',
-    status: 'offline',
-    statusNote: 'Redeploying from Heroku → Netlify',
+    status: 'live',
     stack: ['React', 'styled-components', 'CSS'],
     description:
       'An interactive timeline React app featuring bios, notable quotes, and recommended readings for prolific Stoic philosophers — Marcus Aurelius, Seneca, Epictetus, Zeno, and more. Includes a light/dark theme toggle.',
@@ -120,7 +109,7 @@ const projects = [
       'Expand to other ancient philosophy schools',
       'Audio narration of selected quotes',
     ],
-    demo: null,
+    demo: 'https://stoic-timeline.netlify.app',
     github: 'https://github.com/zmcentire/stoic-bio',
     image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800',
   },
